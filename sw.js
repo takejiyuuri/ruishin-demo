@@ -1,7 +1,7 @@
 // Service Worker のひな型。版番号と取り込み一覧はビルド時に埋め込まれる。
 // 目的は「一度開いたら、電波の入らない現場でもそのまま使えること」。
-const VERSION = '568ef9536cc0';
-const PREFIX = 'jww-viewer-';
+const VERSION = 'bfb07dc43922';
+const PREFIX = 'ruishin-demo-';
 const CACHE = `${PREFIX}${VERSION}`;
 const PRECACHE = [
   "./",
@@ -12,15 +12,15 @@ const PRECACHE = [
   "./icon-512.png",
   "./icon-maskable-512.png",
   "./ruishin-sample.jww",
-  "./assets/index-BGk_HHQ-.css",
-  "./assets/index-BUTqUq1e.js",
-  "./assets/index-DOWNaKcJ.js",
-  "./assets/index-C9nuiEsH.js",
-  "./assets/index-DbWHn42s.js",
-  "./assets/index-C77kyRmv.js",
-  "./assets/web-CHB16EpQ.js",
-  "./assets/web-BdcyyqxL.js",
-  "./assets/web-3plyw8pj.js",
+  "./assets/index-CFMt5-FC.css",
+  "./assets/index-CWFHbSh6.js",
+  "./assets/index-DzFZNcAk.js",
+  "./assets/index-z6LG0xNm.js",
+  "./assets/index-66XGFZM1.js",
+  "./assets/index-D6gIa_H2.js",
+  "./assets/web-CYTkHySl.js",
+  "./assets/web-BvX4t2yA.js",
+  "./assets/web-DSFuHbgs.js",
   "./assets/load-PtvsDAYG.js",
   "./assets/load-UsGBM5Gg.js",
   "./assets/ltype-BND15sJZ.js",
