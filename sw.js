@@ -1,6 +1,6 @@
 // Service Worker のひな型。版番号と取り込み一覧はビルド時に埋め込まれる。
 // 目的は「一度開いたら、電波の入らない現場でもそのまま使えること」。
-const VERSION = '4c28ff09da22';
+const VERSION = '5e7e5578b0a6';
 const PREFIX = 'jww-viewer-';
 const CACHE = `${PREFIX}${VERSION}`;
 const PRECACHE = [
@@ -13,14 +13,14 @@ const PRECACHE = [
   "./icon-maskable-512.png",
   "./ruishin-sample.jww",
   "./assets/index-pJJqO59Z.css",
-  "./assets/index-DJteLhBI.js",
-  "./assets/index-BYRLO3AN.js",
-  "./assets/index-B5BGZ2F3.js",
-  "./assets/index-71v3BlzV.js",
-  "./assets/index-eFNdNKe9.js",
-  "./assets/web-WbvXjr59.js",
-  "./assets/web-BKMFJrfb.js",
-  "./assets/web-DHIMX19c.js",
+  "./assets/index-BKuukPxh.js",
+  "./assets/index-D0WLdGJ7.js",
+  "./assets/index-BgpO6zOB.js",
+  "./assets/index-Cs-inl7z.js",
+  "./assets/index-OHmr-Rf5.js",
+  "./assets/web-DCHnj7pf.js",
+  "./assets/web-C44KdaPH.js",
+  "./assets/web-DmKWaW6k.js",
   "./assets/load-PtvsDAYG.js",
   "./assets/load-UsGBM5Gg.js",
   "./assets/ltype-BND15sJZ.js",
